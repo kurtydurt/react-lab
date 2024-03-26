@@ -4,7 +4,7 @@ import './App.css';
 const now = new Date();
 let muscle;
 const currTime = now.toLocaleDateString();
-if (currTime[0] % 2 == 0) {
+if (currTime[0] % 2 === 0) {
   muscle = 'Chest & Back'
 } else {
   muscle = 'Leg'
